@@ -3,8 +3,7 @@
 /**
  * print_last_digit - Prints the last digit of a number
  * @j: number to be checked
- * @i: variable to hold last digit
- * Return: i
+ * Return: i, variable to hold last digit of j
  */
 int print_last_digit(int j)
 {
