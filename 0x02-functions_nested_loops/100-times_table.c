@@ -27,7 +27,21 @@ void print_times_table(int n)
 
 				prod = num * mult;
 
-				_putchar(' ');
+				if (prod <= n)
+				{
+					_putchar(' ');
+				}
+				else
+				{
+					if (prod < 10)
+					{
+						_putchar(' ');
+					}
+					else
+					{
+						_putchar((prod / 10) + '0');
+					}
+				}
 
 				_putchar((prod % 10) + '0');
 			}
