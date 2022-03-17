@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints FizzBuzz instead of integer for integers 
- * divisible by 3, 5, and 15
+ * main - Entry point
  * @void: no argument
  * Return: 0
  */
