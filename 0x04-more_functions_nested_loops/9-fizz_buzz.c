@@ -3,7 +3,8 @@
 /**
  * main - Prints FizzBuzz instead of integer for integers 
  * divisible by 3, 5, and 15
- * Return: Always 0
+ * @void: no argument
+ * Return: 0
  */
 int main(void)
 {
