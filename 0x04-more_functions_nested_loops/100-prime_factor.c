@@ -7,31 +7,25 @@
  */
 int main(void)
 {
-	unsigned long long int n;
-	unsigned long long int div;
-	unsigned long long int ans;
-	unsigned long long int maxFact;
-	
-	n = 612852475143;
-	div = 2;
-	ans = 0;
-	while (n != 0)
+	long prime = 612852475143;
+	long div;
+
+	while (div < (prime / 2))
 	{
-		if ((n % div) != 0)
+		if ((prime % 2) == 0)
 		{
-			div += 1;
+			prime /= 2;
+			continue;
 		}
-		else
+
+		for (div = 3; div < (prime / 2); div += 2)
 		{
-			maxFact = n;
-			n = n / div;
-			if (n == 1)
-			{
-				printf("%llu\n", maxFact);
-				ans = 1;
-				break;
-			}
+			if ((prime % div) == 0)
+				prime /= div;
 		}
 	}
+
+	printf("%ld\n", prime);
+
 	return (0);
 }
