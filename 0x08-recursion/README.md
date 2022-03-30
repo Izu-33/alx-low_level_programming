@@ -4,7 +4,7 @@
 
 ## Header File :file_folder:
 
-  `main.h` contains all user-defined function prototypes and serves as the header file for all programs.
+  [`main.h`](main.h) contains all user-defined function prototypes and serves as the header file for all programs.
 
 ## Requirements :page_with_curl:
 
