@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - multiplies 2 numbers.
@@ -16,7 +17,10 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	result = atoi(argv[1]) * atoi(argv[2]);
+	i = atoi(argv[1]);
+	j = atoi(argv[2]);
+
+	result = i * j;
 
 	printf("%d\n", result);
 
