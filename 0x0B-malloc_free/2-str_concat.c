@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * str_cocat - Concatenates two strings.
+ * str_concat - Concatenates two strings.
  * @s1: First string for concatenation.
  * @s2: Second string for concatenation.
  *
