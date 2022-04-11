@@ -3,7 +3,7 @@
 
 
 int _strlen(char *str);
-char _strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src);
 dog_t *new_dog(char *name, float age, char *owner);
 
 
