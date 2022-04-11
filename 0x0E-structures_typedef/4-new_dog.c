@@ -29,7 +29,7 @@ int _strlen(char *str)
  * @dest: Buffer storing the string copy.
  * @src: Source string.
  *
- * Retuen: A pointer to dest.
+ * Return: A pointer to dest.
  */
 char *_strcpy(char *dest, char *src)
 {
