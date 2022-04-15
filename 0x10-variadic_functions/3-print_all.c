@@ -84,7 +84,6 @@ void print_all(const char * const format, ...)
 			funcs[j].print(args);
 			separator = ", ";
 		}
-		
 		i++;
 	}
 	printf("\n");
